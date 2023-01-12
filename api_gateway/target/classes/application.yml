@@ -1,0 +1,17 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: User-Service
+        uri: http://localhost:8091/
+        predicates:
+        - Path=/users/**
+      - id: Hotel-Service
+        uri: http://localhost:8092/
+        predicates:
+        - Path=/hotels/**
+      - id: Rating-Service
+        uri: http://localhost:8093/
+        predicates:
+        - Path=/ratings/**
