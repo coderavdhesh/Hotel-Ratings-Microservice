@@ -120,7 +120,7 @@ You can test them using postman or any other rest client.
 7. How we can test/check the working of our backend service/APIs using 'POSTMAN TOOL'
 8. More clarity in core Java concepts.
 -----------------------------------------------------------------------------------------------
-                    Used Tools and other Services: 
+>Used Tools and other Services: 
 1. Postman API tool to get the reponses.
 2. MySQL server and Interaction with database through terminal.
 3. VS code to manage this project.
