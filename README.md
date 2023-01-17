@@ -110,7 +110,7 @@ You can test them using postman or any other rest client.
  ### Tech Stacks :
   >Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.       
 
-1. New learing and more confidence in developing microservices.
+1. New learing and gained more confidence in developing microservices.
 2. Learn about Eureka servers and Service-Registery and  internal communication of APIs.             
 3. More clarity and understanding actually working in Backend, Layers in the backend development.
 4. Familiar with SpringBoot-Architectural Layers and how they are working together to get the data from the database to the end user.
