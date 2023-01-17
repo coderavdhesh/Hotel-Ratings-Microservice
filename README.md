@@ -30,7 +30,7 @@ create database microservice
 
 **2.2 : Create select Database**
 ```bash
-create database microservice
+use microservice
 ```
 
 **2.3 : Create Tables in database**
@@ -65,7 +65,8 @@ Alternatively, you can run the app without packaging it using(or using VS code t
 mvn spring-boot:run
 ```
 
-The app(api_gateway) will start running at <http://localhost:8094>
+## Tomcat server port numbers :
+The **app(api_gateway)** will start running at <http://localhost:8094>
 
 The **User Service** will start running at <http://localhost:8091>
 
@@ -73,24 +74,26 @@ The **Hotel Service** will start running at <http://localhost:8092>
 
 The **Rating Service** will start running at <http://localhost:8093>
 
+.
 ## Explore Rest APIs URIs
 
 The app defines following CRUD APIs.
 
-    GET /books
-    
-    POST /books/addbook
-    
-    GET /books/{bookId}
-    
-    DELETE /books/{bookId}
-    
-    UPDATE /books/{bookId}
+These all the users will works, once you connect all your services in single api_gateway:
+
+
+    localhost:8094/users
+    localhost:8094/users/users/{user_Id}
+    localhost:8094/users/hotels
+    localhost:8094/users/hotels/{hotel_Id}
+    localhost:8094/users/rating
+    localhost:8094/users/rating/{rating_Id}
 
 You can test them using postman or any other rest client.
 
 ## **API Documentation -** Please refer this postman document for more clarity
  https://documenter.getpostman.com/view/24533269/2s8ZDVYNjg
+
 
 ## **Know More**
 ------------------------------------------------------------------------------------------
