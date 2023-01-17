@@ -103,10 +103,10 @@ You can test them using postman or any other rest client.
 
 
 ## **Know More**
-------------------------------------------------------------------------------------------
+
                     Hotel-Ratings-Microservice Project
-------------------------------------------------------------------------------------------
-                                 Key Learnings:
+
+>Key Learnings:
  ### Tech Stacks :
   >Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.                     
 1. How things are actually working in Backend, Layers in the backend development.
