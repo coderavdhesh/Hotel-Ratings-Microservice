@@ -1,5 +1,4 @@
-# Hotel-Ratings-Microservice
-Hotels Rating MicroService Like on Airbnb, OYO rooms, Booking.com, agoda etc.
+# Hotel-Ratings-Microservice - Hotels Rating MicroService Like on Airbnb, OYO rooms, Booking.com, agoda etc.
 
 # Spring boot and MySQL restful API for the online book stores
 A restful API built on Spring boot that connects to the MySQL database. Application built using Spring Data JPA to perform database operations. Users can add, retrieve, update and delete(CRUD operations) for an online Book store(web app/ website).
