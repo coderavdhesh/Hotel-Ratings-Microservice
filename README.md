@@ -104,31 +104,11 @@ You can test them using postman or any other rest client.
 
 ## **Know More**
 ------------------------------------------------------------------------------------------
-                     RESTFUL API for ONLINE BOOK STORE - BOOKCART
+                    Hotel-Ratings-Microservice Project
 ------------------------------------------------------------------------------------------
-Project Name : BookData_restAPI for the online BookStores
-Project aim : This API helps to fatch data and also performed CRUD operations to make our website/apps updated with the correct DataSets.
------------------------------------------------------------------------------------------------
-                                How this API works ? 
-Web requests and URLs which helps to perform Get/Post/Put/Delete [CRUD operations] --
-
-1. Create [Post] : 
-    -> 'localhost:7676/books/addbook', it helps to Create new Books dataset in our database.
-    Note ~ If you will enter wrong URL or RequestBody, Than it will handle the exception and revert the error BAD_REQUEST.
-
-2. Retrieve [Get] : 
-    -> 'localhost:7676/books', it helps to retrieve datasets of books from our database.
-    -> 'localhost:7676/books/{id}', it is a Dynamic request, helps to retrieve dataset of a spacific book of the passed Id from our database.
-
-3. Update [Put] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to update the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NOT_FOUND'.
-
-4. Delete [Delete] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to Delete the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NO_CONTENT'.
------------------------------------------------------------------------------------------------
-                                    Key Learnings:
+                                 Key Learnings:
  ### Tech Stacks :
-  Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.                     
+  >Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.                     
 1. How things are actually working in Backend, Layers in the backend development.
 2. Familiar with SpringBoot-Architectural Layers and how they are working together to get the
    data from the database to the end user.
