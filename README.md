@@ -108,21 +108,23 @@ You can test them using postman or any other rest client.
 
 >Key Learnings:
  ### Tech Stacks :
-  >Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.                     
-1. How things are actually working in Backend, Layers in the backend development.
-2. Familiar with SpringBoot-Architectural Layers and how they are working together to get the
-   data from the database to the end user.
-3. How we can connect our API with our Database with the help of Spring Data JPA and with full functionality of CRUDs with your APIs.
-4. Got familiar with the CRUD methods of JPA repo and Database configurations.
-5. How we can test/check the working of our backend service/APIs using 'POSTMAN TOOL'
-6. More clarity in core Java concepts.
+  >Springboot, Spring Data JPA, MySQL Database, SQL, Postman client tool, Java, Spring annotations, Spring MVC(controllers, HTTP URIs), classpath & dependencies, configuration, etc.       
+
+1. New learing and more confidence in developing microservices.
+2. Learn about Eureka servers and Service-Registery and  internal communication of APIs.             
+3. More clarity and understanding actually working in Backend, Layers in the backend development.
+4. Familiar with SpringBoot-Architectural Layers and how they are working together to get the data from the database to the end user.
+5. How we can connect our API with our Database with the help of Spring Data JPA and with full functionality of CRUDs with your APIs.
+6. Got familiar with the CRUD methods of JPA repo and Database configurations.
+7. How we can test/check the working of our backend service/APIs using 'POSTMAN TOOL'
+8. More clarity in core Java concepts.
 -----------------------------------------------------------------------------------------------
-                            Used Tools and other Services: 
+                    Used Tools and other Services: 
 1. Postman API tool to get the reponses.
 2. MySQL server and Interaction with database through terminal.
-3. VS code to manage this project
-4. Git(github) to upload this source Code
-5. No frontend written yet for this API.
+3. VS code to manage this project.
+4. Git(github) to upload this source Code.
+5. No frontend written yet for this Backend service.
 -----------------------------------------------------------------------------------------------
 
 
