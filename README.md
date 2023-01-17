@@ -49,7 +49,6 @@ Note : My written code will automatically generate their tables itself. However 
     create table hotel_data;
 ```
 
-
 **3. Change mysql username and password as per your installation**
 
 + open `src/main/resources/application.properties`
@@ -95,6 +94,8 @@ These all the users will works, once you connect all your services in single api
     localhost:8094/users/hotels/{hotel_Id}
     localhost:8094/users/rating
     localhost:8094/users/rating/{rating_Id}
+
+<img width="263" alt="Screenshot 2023-01-17 at 5 53 39 PM" src="https://user-images.githubusercontent.com/61471356/212911949-c80fa40f-5319-477f-a557-979ce79f4cf9.png">
 
 You can test them using postman or any other rest client.
 
