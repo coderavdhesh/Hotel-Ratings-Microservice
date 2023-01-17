@@ -1,5 +1,5 @@
 # Hotel-Ratings-Microservice : 
-**It is a Hotels rating backend service like in Airbnb, OYO rooms, Booking.com, agoda etc. based on microService architecture**
+**It is a Hotels rating backend service like in Airbnb, OYO rooms, Booking.com, agoda etc. built on microService architecture**
 
 This is a fully independent service developend based on microservice architecture using Spring boot that connects to the MySQL database. 
 This microservice contains 3 services(API) with
