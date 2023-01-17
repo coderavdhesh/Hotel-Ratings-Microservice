@@ -1,7 +1,7 @@
-# Hotel-Ratings-Microservice - Hotels Rating MicroService Like on Airbnb, OYO rooms, Booking.com, agoda etc.
+# Hotel-Ratings-Microservice : Hotels rating independent service like in Airbnb, OYO rooms, Booking.com, agoda etc. based on microService architecture 
 
-# Spring boot and MySQL restful API for the online book stores
-A restful API built on Spring boot that connects to the MySQL database. Application built using Spring Data JPA to perform database operations. Users can add, retrieve, update and delete(CRUD operations) for an online Book store(web app/ website).
+This is a fully independent service developend based on microservice architecture using Spring boot that connects to the MySQL database. 
+This microservice contains 3 services(API) with
 
 ## Requirements
 
@@ -20,13 +20,28 @@ A restful API built on Spring boot that connects to the MySQL database. Applicat
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/coderavdhesh/BookCart_restAPI.git
+git clone https://github.com/coderavdhesh/Hotel-Ratings-Microservice.git
 ```
 
-**2. Create Mysql database**
+**2.1 : Create Mysql database**
 ```bash
-create database BookCart
+create database microservice
 ```
+
+**2.2 : Create select Database**
+```bash
+create database microservice
+```
+
+**2.3 : Create Tables in database**
+```bash
+Note : My written code will automatically generate their tables itself. However you can follow there SQL commands in terminal/workbanch.
+
+    create table user_data;
+    create table rating_data;
+    create table hotel_data;
+```
+
 
 **3. Change mysql username and password as per your installation**
 
@@ -37,17 +52,28 @@ create database BookCart
 **4. Build and run the app using maven (BookCart)**
 
 ```bash
-java -jar target/bookcart.jar
+java -jar target/user_data.jar
+java -jar target/hotel_data.jar
+java -jar target/rating_data.jar
+java -jar target/api_gateway.jar
+java -jar target/configuration.jar
 ```
-Alternatively, you can run the app without packaging it using -
+
+Alternatively, you can run the app without packaging it using(or using VS code to run your app)-
 
 ```bash
 mvn spring-boot:run
 ```
 
-The app will start running at <http://localhost:7676>.
+The app(api_gateway) will start running at <http://localhost:8094>
 
-## Explore Rest APIs
+The **User Service** will start running at <http://localhost:8091>
+
+The **Hotel Service** will start running at <http://localhost:8092>
+
+The **Rating Service** will start running at <http://localhost:8093>
+
+## Explore Rest APIs URIs
 
 The app defines following CRUD APIs.
 
@@ -63,16 +89,10 @@ The app defines following CRUD APIs.
 
 You can test them using postman or any other rest client.
 
+## **API Documentation -** Please refer this postman document for more clarity
+ https://documenter.getpostman.com/view/24533269/2s8ZDVYNjg
 
-## Learn more
-
-You can find the tutorial/Explanation video for this web application(API) on my youtube account -
-
-   https://youtu.be/86v93c6cG0Q
-
-
-## Know More
-
+## **Know More**
 ------------------------------------------------------------------------------------------
                      RESTFUL API for ONLINE BOOK STORE - BOOKCART
 ------------------------------------------------------------------------------------------
@@ -117,4 +137,5 @@ Web requests and URLs which helps to perform Get/Post/Put/Delete [CRUD operation
 
 
 
-
+````
+**************** Happy Coding ******************
