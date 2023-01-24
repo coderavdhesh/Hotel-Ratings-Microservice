@@ -1,7 +1,7 @@
 # Hotel-Ratings-Microservice : 
 **It is a Hotels rating backend service like in Airbnb, OYO rooms, Booking.com, agoda etc. built on microService architecture**
 
-This whole project gave me a beeter and clear understanding in developing microservices.
+This whole project gave me a better and clear understanding in developing microservices.
 > The flow of my working/learning :
 1. This is a fully independent service developed based on **microservice architecture using Spring boot** that connects to the **MySQL database** with the help of **Spring data JPA(CRUD/JPA repo).** 
 2. This microservice connects **3 services(API)**, i.e User_service, Hotel_service and Rating_service, and allow (intenal)**communication** among them(using **restTemplete** config.), **Note:** Every single service(API) is having there own Database.
