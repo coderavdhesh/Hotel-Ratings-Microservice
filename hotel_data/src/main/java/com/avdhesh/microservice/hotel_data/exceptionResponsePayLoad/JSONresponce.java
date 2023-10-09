@@ -13,7 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class JSONresponce {
+public class JSONresponse {
     String meassage;
     HttpStatus httpStatus;
     boolean success;

@@ -13,7 +13,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<JSONresponce> notFoundExcceptionHandler(ResourceNotFoundException ex){
         String exceptionMeassahe = ex.getMessage();
-        JSONresponce responce =  JSONresponce.builder().meassage(exceptionMeassahe).httpStatus(HttpStatus.NOT_FOUND).success(true).build();
-        return new ResponseEntity<JSONresponce>(responce, HttpStatus.NOT_FOUND);
+        JSONresponce response =  JSONresponce.builder().meassage(exceptionMeassahe).httpStatus(HttpStatus.NOT_FOUND).success(true).build();
+        return new ResponseEntity<JSONresponce>(response, HttpStatus.NOT_FOUND);
     }
 }
